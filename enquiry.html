@@ -3,36 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry</title>
-     <link rel="stylesheet"href="css/style.css">
+    <title>Mido Tech Gadgets - Enquiry</title>
+
+    <!-- IMPORTANT: correct path -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="products.html">Products</a>
-    <a href="enquiry.html">Enquiry</a>
+    <a href="enquiry.html" class="active">Enquiry</a>
     <a href="contact.html">Contact</a>
 </nav>
-    <h1>Enquiry</h1>
-<form action="#" method="post">
-    <label for="name">Full Name</label><br>
-    <label for="text" id="name" name="name" required><br>
-    <label for=" email">Email Address:</label><br>
-    <input type="email" id="email" name="email" required><br>
-    <input type="phone">Phone number:</label><br>
-    <input type="tel" id="phone" name="phone"required><br><br>
-    <label for="service">Service Needed</label><br>
-    <input type="text" id="services" name="service"><br>
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
-    <button type="submit">Submit Enquiry</button>
-</form>
+
+<section class="hero">
+    <h1>Enquiry Page</h1>
+    <h2>We’re Here to Help You</h2>
+    <p>Send us your enquiry and we will respond as soon as possible.</p>
+</section>
+
+<section class="enquiry-wrapper">
+
+    <div class="enquiry-info">
+        <h2>Why Contact Us?</h2>
+        <p>
+            We help you with product selection, pricing, and availability.
+        </p>
+    </div>
+
+    <div class="enquiry-form">
+        <form action="#" method="post">
+
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number">
+            <input type="text" placeholder="Service Needed">
+
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+    </div>
+
+</section>
 
 <footer>
-    <p>&copy;2026 My Computer Shop|All Rights Reserved</p>
+    <p>&copy; 2026 Mido Tech Gadgets and Accessories</p>
 </footer>
 
-    
 </body>
 </html>
